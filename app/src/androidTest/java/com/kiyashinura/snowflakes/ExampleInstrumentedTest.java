@@ -1,4 +1,4 @@
-package com.satanbakespancakes.snowflakes;
+package com.kiyashinura.snowflakes;
 
 import android.content.Context;
 
