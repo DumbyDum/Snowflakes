@@ -1,4 +1,4 @@
-package com.kiyashinura.snowflakes;
+package com.emindor.snowflakes;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -10,8 +10,6 @@ import android.view.MotionEvent;
 import android.view.View;
 
 import androidx.annotation.Nullable;
-
-import java.util.Random;
 
 public class SnowflakesSurface extends View {
     Snowflake[] snowflakes;
@@ -35,7 +33,7 @@ public class SnowflakesSurface extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-        canvas.drawColor(Color.WHITE);
+        canvas.drawColor(Color.BLUE);
         for (int i = 0; i < snowflakes.length; i++) {
             canvas.drawText("*", snowflakes[i].x, snowflakes[i].y, snowflakes[i].paint);
         }

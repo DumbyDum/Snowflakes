@@ -1,4 +1,4 @@
-package com.kiyashinura.snowflakes;
+package com.emindor.snowflakes;
 
 import androidx.appcompat.app.AppCompatActivity;
 

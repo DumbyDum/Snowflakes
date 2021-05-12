@@ -1,4 +1,4 @@
-package com.kiyashinura.snowflakes;
+package com.emindor.snowflakes;
 
 import android.graphics.Color;
 import android.graphics.Paint;
@@ -21,7 +21,7 @@ public class Snowflake {
         } while (paint.getTextSize() < 20);
         ror = r.nextInt(359);
         paint.setTextAlign(Paint.Align.CENTER);
-        paint.setColor(Color.BLUE);
+        paint.setColor(Color.CYAN);
     }
 
     public void fall() {

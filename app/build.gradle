@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId 'com.kiyashinura.snowflakes'
+        applicationId 'com.emindor.snowflakes'
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 1

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.kiyashinura.snowflakes.SnowflakesSurface
+    <com.emindor.snowflakes.SnowflakesSurface
         android:id="@+id/snowflakesSurface"
         android:layout_width="0dp"
         android:layout_height="0dp"
